@@ -29,7 +29,19 @@
                   </msItem>
                </msContents>
                <physDesc><!--objectDesc, handDesc, decoDesc go here--></physDesc>
-               <history><!--summary, origin, provenance go here--></history>
+               <history><!--summary, origin, provenance go here-->
+                  <summary>
+                     <!--The following note element should be included, with the text "fake" as its content, if the inscription is a fake.-->
+                     <!--USEp. comment: This is a USEp. convention for now, to indicate if an inscription is fake.-->
+                     <!--This isn't sufficient, as it doesn't indicate properly if it's the text or the support that's fake.-->
+                     <!--Please say whether the object is fake (and therfore the inscription also) or only the inscription is fake but the object is real-->
+                     <note/>
+                  </summary>
+                  <origin>
+                     <!--Should contain information about origin of inscription including place and date.-->
+                     <placeName ref="europe.italy.rome">Italy, Rome, Via Ostiense</placeName>
+                  </origin>
+                  <!--Add provenance element(s) to locations at later dates - same content as origin--></history>
             </msDesc>
             <listBibl>
                <bibl>
